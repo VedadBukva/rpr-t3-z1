@@ -4,6 +4,7 @@ public abstract class TelefonskiBroj implements Comparable<TelefonskiBroj>{
 
     public abstract String ispisi();
 
+    @Override
     public abstract int hashCode();
 
     @Override
