@@ -9,7 +9,23 @@ public class FiksniBroj extends TelefonskiBroj {
     private Grad grad;
     private String broj;
 
-    public enum Grad{
+    public Grad getGrad() {
+        return grad;
+    }
+
+    public void setGrad(Grad grad) {
+        this.grad = grad;
+    }
+
+    public String getBroj() {
+        return broj;
+    }
+
+    public void setBroj(String broj) { this.broj = broj;
+    }
+
+
+        public enum Grad{
         TRAVNIK, ORASJE, ZENICA, SARAJEVO, LIVNO, TUZLA, MOSTAR, BIHAC, GORAZDE, SIROKIBRIJEG,
         MRKONJICGRAD, BANJALUKA, PRIJEDOR, DOBOJ, SAMAC, BIJELJINA, ZVORNIK, PALE, FOCA, TREBINJE
     }
